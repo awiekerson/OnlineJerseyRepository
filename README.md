@@ -4,7 +4,7 @@ Publish React App to Github pages:
 Go into 'package.json
 1. Add  "homepage": "https://awiekerson.github.io/[repository name]", to the first line of the file
 2. Add  "predeploy": "npm run build", and "deploy": "gh-pages -d [build folder name]", under the scripts section
-3. If using vite - add   base: '/[repositoryname]/', to the top od 'defineConfig
+3. If using vite - add   base: '/[repositoryname]/', to the top of 'defineConfig
 
 Then push to github:
 
